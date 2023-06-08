@@ -194,3 +194,20 @@ body {
  .clockIcon p span{
     margin-right:4px;
  }
+ /* media quary breakpoint */
+/* ==================
+    mobail device responsive 
+        ==========================*/
+@media only screen and (max-width:688px){
+    .top-menu-header{
+        width: 100%;
+    }
+    .top-player{
+        background-color: red;
+    }
+    .all-player{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+}
